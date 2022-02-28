@@ -1,0 +1,11 @@
+
+INSERT INTO usera (id,name,age) VALUES(1,'John', 18);
+INSERT INTO usera VALUES(2,'Mary', 18);
+INSERT INTO usera VALUES(3,'Tom', 18);
+
+INSERT INTO grade VALUES(1, 1, 90);
+INSERT INTO grade VALUES(2, 1, 90);
+INSERT INTO grade VALUES(3, 2, 90);
+INSERT INTO grade VALUES(4, 2, 90);
+INSERT INTO grade VALUES(5, 3, 90);
+INSERT INTO grade VALUES(6, 3, 90);
