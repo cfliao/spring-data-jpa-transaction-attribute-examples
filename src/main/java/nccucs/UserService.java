@@ -22,10 +22,9 @@ public class UserService {
         userRepository.save(user1);
         User user2 = new User(5, 18, "Sue");
         userRepository.save(user2);
-       // throw new RuntimeException();
     }
 
-    @Transactional(propagation = Propagation.SUPPORTS)
+    @Transactional(propagation = Propagation.REQUIRED)
     public void updateUser() {
         User user = userRepository.findById(1);
         user.setAge(19);
